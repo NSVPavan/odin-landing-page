@@ -198,4 +198,12 @@ main{
 .banner-button .signup-button:hover{
     border: 2px solid rgba(255,255,255,1);
 }
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
