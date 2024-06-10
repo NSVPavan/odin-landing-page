@@ -7,9 +7,7 @@ header{
     background-color: #1f2937;
     height: 460px;
 }
-.quote{
-    background-color: #e5e7eb;
-}
+
 .nav-bar{
     display: flex;
     justify-content: space-around;
@@ -81,8 +79,12 @@ header{
    background-color: #4a91f8;
    border: 0.5px solid white;
 }
+main{
+    height: 900px;
+    margin-top: 50px;
+}
 .info{
-    height: 400px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -131,7 +133,30 @@ header{
 .card p{
     /* margin: 0px; */
 }
-main{
-    height: 900px;
-    margin-top: 50px;
+.quote{
+    background-color: #e5e7eb;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 780px;
+}
+.quote-container p{
+    margin: 0px;
+}
+.quote-text p{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    width: 100%;
+}
+.quote-author{
+    margin-right: 50px;
+    font-weight: bold;
 }
