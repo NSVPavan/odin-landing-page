@@ -80,7 +80,7 @@ header{
    border: 0.5px solid white;
 }
 main{
-    height: 900px;
+    height: 1070px;
     margin-top: 50px;
 }
 .info{
@@ -160,3 +160,42 @@ main{
     margin-right: 50px;
     font-weight: bold;
 }
+.signup{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 50%;
+    height: 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+.banner-text{
+    margin-top: 10px;
+    width: 50%;
+    height: 50%;
+}
+.banner-text p{
+    margin: 0px;
+}
+.banner-first-line{
+    font-size: 18px;
+    font-weight: bold;
+}
+.banner-second-line{
+    color: #e5e7eb;
+    font-size: 14px;
+}
+.banner-button .signup-button{
+    border: 2px solid rgba(255,255,255,0.7);
+}
+.banner-button .signup-button:hover{
+    border: 2px solid rgba(255,255,255,1);
+}
+
